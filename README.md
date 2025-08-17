@@ -31,10 +31,10 @@
       3) 아래 명령어를 순서대로 입력하여 실행
   ```
   # 실행 권한 부여
-  chmod +x run_tests.sh
+  chmod +x run_test.sh
   
   # 테스트 실행
-  ./run_tests.sh
+  ./run_test.sh
   ```
 4. **결과 확인**
 
