@@ -47,6 +47,9 @@ class TestCreateOrder:
         assert len(orderNo) == 8 and re.fullmatch(pattern, orderNo), "응답 값이 영문/숫자 8자리 문자열이 아님"
         logging.info("주문번호 유효성 확인 완료")
 
+        assert data['data']['orderStatus'] == 'INITIALIZING', "주문 상태 메세지 불일치"
+        logging.info("주문 상태 메세지 확인 완료")
+
         assert data['data']['reservationId'] == request_data_create['reservationId'], "요청값과 응답값 불일치"
         logging.info("reservationId 요청값 - 응답값 일치 확인 완료")
 
