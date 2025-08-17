@@ -10,6 +10,14 @@
 1. **Python 3.12 설치**
 아래 링크에서 Python 3.12를 설치해 주세요.
     - https://www.python.org/downloads/release/python-3124/
+    - 설치 이후, Linux/Mac OS 환경은 아래 명령어로 설치를 진행해주세요.
+      ```
+      # Python 3.12 설치
+      sudo apt install python3.12
+
+      # venv 패키지 설치
+      sudo apt install python3.12-venv
+      ```
 
 2. **프로젝트 다운로드**
 프로젝트를 로컬 시스템에 복제(Clone)하거나 다운로드합니다.
